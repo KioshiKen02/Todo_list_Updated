@@ -51,7 +51,11 @@ class _HomePageState extends State<HomePage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 // Lottie Animation for better design
-                Lottie.asset('assets/animation/astronot.json',
+                Lottie.asset(
+                  'assets/animation/astronot.json',
+                  repeat: true,
+                  animate: true,
+                  reverse: true,
                   height: 120,
                   fit: BoxFit.cover,
                 ),
